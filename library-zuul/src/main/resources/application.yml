@@ -1,0 +1,10 @@
+server:
+  port: 9010   # HTTP (Tomcat) port
+spring:
+  application:
+    name: library-zuul
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:9000/eureka
